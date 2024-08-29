@@ -1,0 +1,103 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #2c3e50; /* Dark blue */
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li {
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media Icons */
+.social-media {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #3498db; /* Blue */
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+}
+
+.social-media a {
+  color: white;
+  display: block;
+  margin: 10px 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.social-media a:hover {
+  color: #ecf0f1; /* Light gray */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #2c3e50; /* Dark blue */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Page Content Styles */
+section {
+  padding: 20px;
+}
+
+.home {
+  background-color: #e74c3c; /* Red */
+  color: white;
+}
+
+.about {
+  background-color: #2ecc71; /* Green */
+  color: white;
+}
+
+.projects {
+  background-color: #f39c12; /* Orange */
+  color: white;
+}

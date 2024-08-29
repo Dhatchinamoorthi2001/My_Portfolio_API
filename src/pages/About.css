@@ -1,0 +1,124 @@
+
+
+.about-content {
+  margin-left: 250px; 
+  margin-top: 60px; 
+  padding: 20px;
+  
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.about-header h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 273px;
+}
+
+.underline {
+  width: 10%;
+  border: 0;
+  border-bottom: 3px solid #7843E9; 
+  margin-left: 340px;
+}
+
+.headline {
+  text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.about-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-left {
+  width: 60%;
+  padding: 20px;
+}
+
+.about-left h2 {
+  font-size: 30px;
+    color:black;
+    margin-bottom: 20px;
+    margin-left: -141px;
+}
+
+.about-left p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+  margin-left: -141px;
+  max-width: 500px;
+
+}
+
+.about-right {
+  width: 56%;
+  padding: -2px;
+  
+  border-radius: 12px;
+  margin-top: 34px;
+}
+
+.about-right h2 {
+  font-size: 2em;
+  color: black; 
+}
+
+
+
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 1rem; 
+}
+
+.skill-button {
+  background: rgba(153, 153, 153, 0.2);
+  border: 2px solid rgba(153, 153, 153, 0.2);
+  border-radius: 5px;
+  padding: 0.5rem 1rem; 
+  font-size: 1rem; 
+  font-weight: 600;
+  color: #666;
+  height: 2.5rem; 
+  line-height: 1.5; 
+  white-space: nowrap; 
+    cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skill-button:hover {
+  background-color: #7843E9; 
+  color: #fff; 
+  border-color: #7843E9;
+}
+
+
+@media (max-width: 768px) {
+  .skills-list {
+    justify-content: center; 
+  }
+
+  .skill-button {
+    width: auto; 
+  }
+}
