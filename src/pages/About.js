@@ -12,7 +12,7 @@ const About = () => (
       <div className="about-left">
         <h2>Get to know me!</h2>
         <p>I am a motivated and detail-oriented Frontend-Focused Web Developer with a strong foundation in HTML, CSS, JavaScript, and React. As a recent graduate, I am eager to apply my skills to real-world projects, creating responsive and user-friendly web applications. My focus is on building effective solutions that meet user needs and contribute to the overall success of digital products.</p>
-        <p>I am committed to continuous learning and sharing what I’ve learned with others. Through <a href="https://www.linkedin.com/in/dhatchinamoorthi-chinnathambi/" target="">LinkedIn</a>
+        <p>I am committed to continuous learning and sharing what I’ve learned with others. Through <a href="https://www.linkedin.com/in/dhatchinamoorthi-chinnathambi/" >LinkedIn</a>
          I provide tutorials, tips, and insights into web development, helping peers and fellow developers enhance their skills. Connect with me to stay updated and collaborate in this exciting field.</p>
       </div>
       <div className="about-right">
