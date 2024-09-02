@@ -12,6 +12,8 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import './App.css';
 
+
+
 const App = () => (
   <Router>
     <Navbar />
