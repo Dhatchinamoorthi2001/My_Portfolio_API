@@ -1,30 +1,44 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Projects.css'; 
+import axios from 'axios';
 
-const Projects = () => (
-  <div className="projects-content">
-    <header className="projects-header">
-      <h1>Projects</h1>
-      <p>Here you will find some of the personal and client projects that I created, each with its own case study.</p>
-    </header>
-    <div className="projects-list">
-      <div className="project-card">
-        <h3>Simple Calculator</h3>
-        <p>An easy-to-use calculator built with HTML, CSS, and JavaScript. Click the button below to view the project.</p>
-        <a href="https://simplecalculator-calc.netlify.app" className="project-button" target="" rel="noopener noreferrer">View Project</a>
-      </div>
-      <div className="project-card">
-        <h3>Weather Calculator</h3>
-        <p>A weather application that provides real-time weather information using multiple APIs. Click the button below to view the project.</p>
-        <a href="https://weather-calculator-application.netlify.app/" className="project-button" target="" rel="noopener noreferrer">View Project</a>
-      </div>
-      <div className="project-card">
-        <h3>Buy and Sell Car</h3>
-        <p>A web app for buying and selling cars with a user-friendly interface and responsive design. Click the button below to view the project.</p>
-        <a href="https://spinny-buyandsell-car.netlify.app/" className="project-button" target="" rel="noopener noreferrer">View Project</a>
-      </div>
+const Projects = () => {
+  const [projects, setProjects] = useState([]);
+  const [error, setError] = useState('');
+
+  useEffect(() => {
+    const fetchProjects = async () => {
+      try {
+        const { data } = await axios.get('https://api.github.com/users/Dhatchinamoorthi2001/repos');
+        setProjects(data);
+      } catch {
+        setError('Error fetching projects');
+      }
+    };
+
+    fetchProjects();
+  }, []);
+
+  return (
+    <div className="projects-container">
+      <h1 className="projects-heading">My Projects</h1>
+      {error && <p className="error-message">{error}</p>}
+      {projects.length ? (
+        <ul className="projects-list">
+          {projects.map(({ id, name, html_url }) => (
+            <li key={id} className="project-item">
+            <a href={html_url} >
+              {name}
+            </a>
+          </li>
+          
+          ))}
+        </ul>
+      ) : (
+        <p className="no-projects-message">No projects available.</p>
+      )}
     </div>
-  </div>
-);
+  );
+};
 
 export default Projects;
