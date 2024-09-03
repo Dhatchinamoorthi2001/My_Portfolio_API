@@ -3,7 +3,7 @@
 Welcome to my portfolio! I’m a passionate Frontend Developer dedicated to creating engaging, responsive, and user-friendly web applications. This repository contains the source code for my personal portfolio, showcasing my skills, projects, and contact information.
 ## 🌐 Portfolio
 
-Check out my full portfolio [here](https://my-portfolio-api.netlify.app/).
+Check out my full portfolio [here](https://my-portfolio-api-dhatchinamoorthi.netlify.app/).
 
 
 ## 🚀 Projects
