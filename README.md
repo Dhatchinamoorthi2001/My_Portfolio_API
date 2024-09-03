@@ -26,7 +26,7 @@ A minimalist calculator app built with HTML, CSS, and JavaScript. Perfect for pe
 An intuitive web application for buying and selling cars. Features user authentication, car listings, and easy management of transactions.
 
 -  [View Live Demo](https://myportfolio-dhatchinamoorthi.netlify.app/)  
-   [GitHub Repository](https://github.com/Dhatchinamoorthi2001/buy-sell-car
+   [GitHub Repository](https://github.com/Dhatchinamoorthi2001/buy-sell-car)
 ### 4. GitHub API Integration 🐙
 This portfolio dynamically fetches and displays repositories from my GitHub profile using the GitHub API. The integration allows for real-time updates of my projects, ensuring that the portfolio always reflects the most current version of my work.
 
@@ -51,9 +51,3 @@ Connect with me through the following channels:
 - **Email**: dhatchinamoorthi55@gmail.com.com ✉️
 - **GitHub**: [GitHub Profile](https://github.com/Dhatchinamoorthi2001) 🐙
 - **WhatsApp**: 7904017807 📱
-
-## ⚙️ Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Dhatchinamoorthi2001/your-portfolio-repo.git
