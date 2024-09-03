@@ -48,8 +48,7 @@ I’m a Frontend Developer with a background in Mechanical Engineering. My exper
 
 Connect with me through the following channels:
 
-- **Email**: your.email@example.com ✉️
-- **LinkedIn**: [LinkedIn Profile](#) 💼
+- **Email**: dhatchinamoorthi55@gmail.com.com ✉️
 - **GitHub**: [GitHub Profile](https://github.com/Dhatchinamoorthi2001) 🐙
 - **WhatsApp**: 7904017807 📱
 
